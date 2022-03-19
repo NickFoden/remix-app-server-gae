@@ -7,6 +7,7 @@
   "scripts": {
     "build": "remix build",
     "dev": "remix dev",
+    "gcp-build": "npm run build",
     "postinstall": "remix setup node",
     "start": "remix-serve build"
   },
